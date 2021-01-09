@@ -1,0 +1,14 @@
+[requires]
+sqlcipher/4.4.2
+cxxopts/2.2.1
+termcolor/1.0.1
+jsoncpp/1.9.4
+quill/1.6.0
+argon2/20190702
+
+[generators]
+cmake
+
+[options]
+sqlcipher:shared=False
+jsoncpp:shared=False
