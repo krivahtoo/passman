@@ -13,6 +13,6 @@ set(SOURCES
     ./src/main.cpp
 )
 
-add_executable(passwordmanager ${SOURCES})
+add_executable(passman ${SOURCES})
 
 target_link_libraries(passwordmanager ${CONAN_LIBS})

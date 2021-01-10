@@ -37,10 +37,4 @@ struct Password
     std::string site;
 };
 
-struct User
-{
-    int id;
-    std::string password;
-};
-
 #endif // DATABASE_H
