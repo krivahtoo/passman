@@ -142,7 +142,7 @@ int main(int argc, char* argv[]) {
    std::cout << " 3. Quit" << std::endl;
    std::cout << "What do you want to do:";
    std::cin >> option;
-   
+
    switch (option)
    {
    case 1:
@@ -185,7 +185,7 @@ int main(int argc, char* argv[]) {
       std::cout << "Bye" << std::endl;
       exit(0);
       break;
-   
+
    default:
       std::cout << "Invalid option" << std::endl;
       break;
