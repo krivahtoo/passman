@@ -1,8 +1,6 @@
 cmake_minimum_required(VERSION 3.0)
 
-project(passwordmanager)
-
-#install(TARGETS passwordmanager RUNTIME DESTINATION bin)
+project(passman)
 
 include(${CMAKE_BINARY_DIR}/conanbuildinfo.cmake)
 conan_basic_setup()
@@ -15,4 +13,4 @@ set(SOURCES
 
 add_executable(passman ${SOURCES})
 
-target_link_libraries(passwordmanager ${CONAN_LIBS})
+target_link_libraries(passman ${CONAN_LIBS})
